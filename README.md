@@ -21,20 +21,3 @@
    - Password: 123456789
 
 # Demo Screenshots
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/font_1.png?raw=true)
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/font_2.png?raw=true)
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/font_3.png?raw=true)
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/font_4.png?raw=true)
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/font_5.png?raw=true)
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/font_6.png?raw=true)
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/font_7.png?raw=true)
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/font_8.png?raw=true)
-
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/back_1.png?raw=true)
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/back_2.png?raw=true)
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/back_3.png?raw=true)
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/back_4.png?raw=true)
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/back_5.png?raw=true)
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/back_6.png?raw=true)
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/back_7.png?raw=true)
-![alt text](https://github.com/praphanth/marketplace/blob/master/img/back_8.png?raw=true)
