@@ -1,0 +1,75 @@
+<!-- ==================================
+		Login modal window
+======================================-->
+
+ <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<div id="promo_mw" class="modal_window">
+
+	<button class="close arcticmodal-close"></button>
+
+	<header>
+
+		<div class="left_side">
+
+			<h2>เขียนรีวิว</h2>
+
+		</div>
+
+	</header><!--/ .on_the_sides-->
+
+	<form class="type_2">
+		<div class="row">
+			<div class="col-xs-12 entry_meta ">
+				<i class="star icon-star-empty-1 str-icon"></i>
+				<i class="star icon-star-empty-1 str-icon"></i>
+				<i class="star icon-star-empty-1 str-icon"></i>
+				<i class="star icon-star-empty-1 str-icon"></i>
+				<i class="star icon-star-empty-1 str-icon"></i>
+				<i class="">คลิกเพื่อให้ดาว</i>
+			</div>
+		</div>
+
+		<ul>
+			<li>
+			</li>
+			<li>
+				<textarea rows="4" type="" name="" id="" placeholder="ใส่ข้อความรีวิว"></textarea>
+			</li>
+			<li>
+				<div class="row margin-t-20">
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<a href="#"  class="w-100 button_dark_grey middle_btn"><i class="icon-cancel-2"></i> ยกเลิก</a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 ">
+						<a href="#"  class="w-100 button_grey middle_btn"><i class="icon-upload-cloud"></i> อัพโหลด</a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<a href="#"  class="w-100 button_blue middle_btn" ><i class="icon-paper-plane"></i> ส่งรีวิว</a>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</form>
+</div>
+
+<script>
+$(".star").click(function() {
+	var index = $( ".star" ).index(this);
+	console.log(index);
+
+	for (var i = 0; i < 5; i++) {
+		console.log(i);
+		if(i <= index){
+			$('.star').eq(i).addClass('icon-star-1');
+			$('.star').eq(i).removeClass('icon-star-empty-1');
+		}else{
+			$('.star').eq(i).addClass('icon-star-empty-1');
+			$('.star').eq(i).removeClass('icon-star-1');
+		}	
+	}	
+}); 
+</script>
+<!--==================================
+		End login modal window
+======================================

@@ -1,0 +1,13 @@
+@media print
+{    
+    .hide_on_print, .hide_on_print *
+    {
+        display: none !important;
+    }
+	a[href]:after {
+	  display: none !important;
+	  visibility: hidden !important;
+	}
+}
+
+ 

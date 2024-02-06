@@ -1,0 +1,20 @@
+@charset "UTF-8";@font-face{font-family:'Mitr';src:url(../fonts/Mitr-ExtraLight.eot);src:url(../fonts/Mitr-ExtraLight.eot) format("embedded-opentype"),url(../fonts/Mitr-ExtraLight.woff2) format("woff2"),url(../fonts/Mitr-ExtraLight.woff) format("woff"),url(../fonts/Mitr-ExtraLight.ttf) format("truetype"),url(../fonts/Mitr-ExtraLight.svg) format("svg");font-weight:200;font-style:normal}@font-face{font-family:'Mitr';src:url(../fonts/Mitr-Light.eot);src:url(../fonts/Mitr-Light.eot) format("embedded-opentype"),url(../fonts/Mitr-Light.woff2) format("woff2"),url(../fonts/Mitr-Light.woff) format("woff"),url(../fonts/Mitr-Light.ttf) format("truetype"),url(../fonts/Mitr-Light.svg) format("svg");font-weight:300;font-style:normal}@font-face{font-family:'Mitr';src:url(../fonts/Regular.eot);src:url(../fonts/Regular.eot) format("embedded-opentype"),url(../fonts/Regular.woff2) format("woff2"),url(../fonts/Regular.woff) format("woff"),url(../fonts/Regular.ttf) format("truetype"),url(../fonts/Regular.svg) format("svg");font-weight:400;font-style:normal}
+
+
+	@font-face {
+	  font-family: 'CSChatThaiUI';
+	  src: url('../fonts/CSChatThaiUI.eot?#iefix') format('embedded-opentype'),  url('../fonts/CSChatThaiUI.woff') format('woff'), url('../fonts/CSChatThaiUI.ttf')  format('truetype'), url('../fonts/CSChatThaiUI.svg#CSChatThaiUI') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
+
+    .rating-color-orange{
+        color:  #f57224 !important; 
+    }
+	
+
+
+@media only screen and (max-width: 600px) { /*aon ok*/
+   
+
+}

@@ -1,0 +1,65 @@
+/*!------------------------------------*\
+    Base
+\*!------------------------------------*/
+
+.drawer-open {
+  overflow: hidden !important;
+}
+
+.drawer-nav {
+  position: fixed;
+  z-index: var(--drawer-nav-zIndex);
+  top: 0;
+  overflow: hidden;
+  width: var(--drawer-width);
+  height: 100%;
+  color: var(--drawer-color);
+  background-color: var(--drawer-bgColor);
+}
+
+.drawer-brand {
+  font-size: var(--drawer-brand-fontSize);
+  font-weight: bold;
+  line-height: var(--drawer-navbar-height);
+  display: block;
+  padding-right: var(--drawer-gutter-x);
+  padding-left: var(--drawer-gutter-x);
+  text-decoration: none;
+  color: var(--drawer-brand-color);
+}
+
+.drawer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.drawer-menu-item {
+  font-size: var(--drawer-fontSize);
+  display: block;
+  padding: var(--drawer-gutter-x);
+  text-decoration: none;
+  color: var(--drawer-link-color);
+}
+
+.drawer-menu-item:hover {
+  text-decoration: underline;
+  color: var(--drawer-hover-color);
+  background-color: var(--drawer-hover-bgColor);
+}
+
+/*! overlay */
+.drawer-overlay {
+  position: fixed;
+  z-index: var(--drawer-overlay-zIndex);
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: var(--drawer-overlay-bgColor);
+}
+
+.drawer-open .drawer-overlay {
+  display: block;
+}
